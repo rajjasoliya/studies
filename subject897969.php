@@ -2,7 +2,7 @@
 include_once('connect.php');
 $usubjid=isset($_GET['usubjid'])?intval($_GET['usubjid']):null;
 if (!$usubjid) {
-    header("Location: study10.php");
+    header("Location: study657585.php");
     exit();
 }
 $keyDM = "$me:DM:$studyid:$usubjid";
@@ -16,7 +16,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
         'last_coseq'=>$_POST['last_coseq'],
     ];
     $redis->hMset($keyDM, $data);
-    header("Location: study10.php");
+    header("Location: study657585.php");
     exit();
 }
 $dmData = $redis->hGetAll($keyDM);
@@ -127,7 +127,7 @@ $dmData = $redis->hGetAll($keyDM);
           >Save Changes</button>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
          <a
-         href="visit35.php?usubjid=<?php
+         href="visit234353.php?usubjid=<?php
           echo $usubjid; 
           ?>"
          class="btn btn-warning">
@@ -135,7 +135,7 @@ $dmData = $redis->hGetAll($keyDM);
         </a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
          <a
-         href="comment20.php?usubjid=<?php
+         href="comment988878.php?usubjid=<?php
           echo $usubjid; 
           ?>"
           class="btn btn-info">
@@ -153,7 +153,7 @@ $dmData = $redis->hGetAll($keyDM);
     </form>
     <br />
     <a
-     href="study10.php"
+     href="study657585.php"
       class="btn btn-info"
       >
       Back to Studies

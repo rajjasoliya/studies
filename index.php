@@ -1,3 +1,3 @@
 <?php
-header('Location: study10.php');
+header('Location: study657585.php');
 ?>

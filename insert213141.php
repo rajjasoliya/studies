@@ -53,7 +53,7 @@ for ($subjectIndex = 1; $subjectIndex <= 12; $subjectIndex++) {
 }
 
 echo "<!-- closed: " . $redis->close() . ". -->\n";
-header('Location: study10.php');
+header('Location: study657585.php');
 ?>
 </body>
 </html>

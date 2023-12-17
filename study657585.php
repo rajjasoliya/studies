@@ -47,7 +47,7 @@ $displaySubjects = array_slice($subjects, $start, $subjectsPerPage);
             class="list-group-item"
             >
                 <a 
-                href="subject40.php?usubjid=<?php echo $usubjid; ?>">
+                href="subject897969.php?usubjid=<?php echo $usubjid; ?>">
                     Subject
                      <?php echo $usubjid; ?>
                 </a>
@@ -64,7 +64,7 @@ $displaySubjects = array_slice($subjects, $start, $subjectsPerPage);
                  class="page-item">
                     <a
                      class="page-link"
-                      href="study10.php?page=<?php echo $page - 1; ?>"
+                      href="study657585.php?page=<?php echo $page - 1; ?>"
                        aria-label="Previous">
                         <span aria-hidden="true">&laquo; Previous</span>
                     </a>
@@ -79,7 +79,7 @@ $displaySubjects = array_slice($subjects, $start, $subjectsPerPage);
                  class="page-item <?php echo ($page === $i)?'active':'';?>">
                     <a
                     class="page-link"
-                    href="study10.php?page=<?php echo $i; ?>"><?php
+                    href="study657585.php?page=<?php echo $i; ?>"><?php
                     echo $i; ?></a>
                 </li>
             <?php
@@ -92,7 +92,7 @@ $displaySubjects = array_slice($subjects, $start, $subjectsPerPage);
                 class="page-item">
                     <a
                      class="page-link"
-                      href="study10.php?page=<?php echo $page + 1; ?>"
+                      href="study657585.php?page=<?php echo $page + 1; ?>"
                        aria-label="Next">
                         <span
                          aria-hidden="true">
@@ -106,7 +106,7 @@ $displaySubjects = array_slice($subjects, $start, $subjectsPerPage);
         </ul>
     </nav><br/>
     <a
-     href="add15.php"
+     href="add112131.php"
      class="btn btn-success">
      Add Subject
     </a>

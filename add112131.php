@@ -15,7 +15,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
     ];
 
     $redis->hMset($key, $data);
-    header("Location: study10.php");
+    header("Location: study657585.php");
     exit();
 }
 ?>

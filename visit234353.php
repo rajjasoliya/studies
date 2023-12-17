@@ -2,7 +2,7 @@
 include_once('connect.php');
 $usubjid=isset($_GET['usubjid'])?intval($_GET['usubjid']):null;
 if (!$usubjid) {
-    header("Location: study10.php");
+    header("Location: study657585.php");
     exit();
 }
 $keySV = "$me:SV:$studyid:$usubjid";
@@ -127,7 +127,7 @@ for ($i = 1; $i <= $lastVisitnum; $i++) {
     </form>
     <br />
     <a 
-    href="subject40.php?usubjid=<?php echo $usubjid; ?>" 
+    href="subject897969.php?usubjid=<?php echo $usubjid; ?>" 
     class="btn
     btn-info"
     >

@@ -7,7 +7,7 @@ isset($_GET['usubjid'])
  :
   null;
 if (!$usubjid) {
-    header("Location: study10.php");
+    header("Location: study657585.php");
     exit();
 }
 $keyCO = "$me:CO:$studyid:$usubjid";
@@ -92,7 +92,7 @@ for ($i = 1; $i <= $lastCoseq; $i++) {
     </form>
     <br />
     <a 
-    href="subject40.php?usubjid=<?php
+    href="subject897969.php?usubjid=<?php
      echo $usubjid;
       ?>" 
     class="btn
